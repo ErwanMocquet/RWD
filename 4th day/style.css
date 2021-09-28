@@ -1,0 +1,99 @@
+@media only screen and (max-width: 100px){
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}}
+
+.nav{
+    display: flex;
+    color: brown;
+    padding: 10px;
+    border: 5px solid teal;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.card{
+    width: 150px; /* Set width of cards */
+    display: flex; /* Children use Flexbox */
+    flex-direction: column;/* Rotate x-axis */
+    border: 1px solid rgb(143, 8, 30);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.card-header{
+    color:rgb(143, 8, 30);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid brown;
+    background-color: darkgoldenrod;
+    padding: 5px 10px;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.material-icons{
+    font-size: 36px;
+    color:rgb(143, 8, 30);
+    margin-bottom: 5px;
+}
+
+.main-description{
+    color: coral;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* IDs for additional colours for row 2*/
+
+#or-border{
+    border-color: darkblue;
+}
+
+#or-header{
+    color: darkcyan;
+    border-color: darkorchid;
+    background-color: deepskyblue;
+}
+
+#or-colour{
+    color:navy;
+}
+
+/* IDs for additional colours for row 3*/
+
+#border{
+    border-color: olive;
+}
+
+#header{
+    color: orangered;
+    border-color: palegoldenrod;
+    background-color:plum ;
+}
+
+#colour{
+    color: purple;
+}
